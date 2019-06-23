@@ -1,0 +1,24 @@
+.main {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.circle-icon {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
+
+.code-container {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+.code {
+  font-size: 200px;
+}
