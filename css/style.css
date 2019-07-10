@@ -1,0 +1,37 @@
+html {text-align: center;
+  background:red;
+
+}
+
+header{
+  background-color:green;
+  font-size:45px;
+  color:blue;
+}
+
+nav {
+display: inherit;
+position: relative;
+width: auto;
+padding: 15px;
+background: gray;
+font-size: 20px;
+}
+
+.link {
+color: blue;
+text-decoration: none;
+
+}
+
+.link:hover {
+color: white;
+transition: .2s;
+background: black;
+padding: 15px;
+}
+
+#image {
+  margin-right: inherit
+  margin-right: inherit
+}
