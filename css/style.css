@@ -1,24 +1,37 @@
-.main {
-  display: grid;
-  height: 100vh;
-  grid-template-columns: 16.6% 16.6% 16.6% 16.6% 16.6% 16.6%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+html {text-align: center;
+  background:red;
+
 }
 
-.circle-icon {
-  grid-column-start: 1;
-  grid-column-end: 1;
-  grid-row-start: 1;
-  grid-row-end: 1;
+header{
+  background-color:green;
+  font-size:45px;
+  color:blue;
 }
 
-.code-container {
-  grid-column-start: 3;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 5;
+nav {
+display: inherit;
+position: relative;
+width: auto;
+padding: 15px;
+background: gray;
+font-size: 20px;
 }
 
-.code {
-  font-size: 200px;
+.link {
+color: blue;
+text-decoration: none;
+
+}
+
+.link:hover {
+color: white;
+transition: .2s;
+background: black;
+padding: 15px;
+}
+
+#image {
+  margin-right: inherit
+  margin-right: inherit
 }
