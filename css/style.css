@@ -32,6 +32,27 @@ padding: 15px;
 }
 
 #image {
-  margin-right: inherit
-  margin-right: inherit
+  margin-right: inherit;
+  margin-right: inherit;
+
+}
+i {
+  font-size: 40px;
+}
+
+main {
+  display: flex;
+}
+
+div {
+  flex: 1;
+}
+
+.ack {
+  background-color: green;
+
+}
+#images{
+  background-image: Atlanta town;
+
 }
